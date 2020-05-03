@@ -18,3 +18,6 @@ class xCore:
     def read(self, addr, length, repeat=False):
         raw = i2c.read(addr, length, repeat)
         return raw
+    
+    def sleep(time):
+        sleep(time)
